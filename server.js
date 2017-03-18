@@ -5,7 +5,7 @@ const port    = process.env.PORT || 3000
 const dblink  = 'mongodb://codecamp:cinnaboncascade@ds133290.mlab.com:33290/urls'
 
 app.get('/', (req,res) => {
-  res.send("Welcome screen will go here.")
+  res.send("Submit a url: /new/http://www.example.com")
 })
 
 app.get('/new/*', (req,res) => {
